@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.carousel {
+  width: 1000px;
+  height: auto;
+  overflow: hidden;
+}
+
+.image-container {
+  display: flex;
+  transition: all 0.7s;
+}
+
+img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
