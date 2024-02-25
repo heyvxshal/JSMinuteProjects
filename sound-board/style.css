@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://cdn.pixabay.com/photo/2021/11/25/19/50/tape-6824489_1280.jpg");
+  background-size: cover;
+}
+
+.btn-sounds {
+  padding: 1.5rem;
+  font-size: 1.7rem;
+  margin: 1.5rem;
+  background-color: rebeccapurple;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+
+.btn-sounds:hover {
+  transform: scale(1.2);
+  border: 5px solid rebeccapurple;
+  background-color: transparent;
+}
